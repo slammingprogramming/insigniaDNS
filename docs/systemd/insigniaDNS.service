@@ -1,0 +1,14 @@
+[Unit]
+Description=Insignia LAN DNS Redirect Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/insigniaDNS
+ExecStart=/usr/bin/python3 /opt/insigniaDNS/insigniaDNS.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
