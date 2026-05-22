@@ -235,7 +235,7 @@ If you want a standalone executable, you can still package the script with Nuitk
 ```shell
 python -m pip install -r requirements.txt nuitka zstandard
 python -m nuitka --standalone --onefile --windows-icon-from-ico=insigniaDNS_icon.ico -o insigniaDNS.exe insigniaDNS.py
-``
+```
 
 ## Issue Reporting
 Please submit any issues either via our [Discord server](https://insig.uk/discord) or [Insignia support](https://support.insignia.live).`
