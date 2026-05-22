@@ -238,7 +238,7 @@ python -m nuitka --standalone --onefile --windows-icon-from-ico=insigniaDNS_icon
 ```
 
 ## Issue Reporting
-Please submit any issues either via our [Discord server](https://insig.uk/discord) or [Insignia support](https://support.insignia.live).`
+Please submit any issues either via our [Discord server](https://insig.uk/discord) or [Insignia support](https://support.insignia.live).
 
 ## Credits
 
